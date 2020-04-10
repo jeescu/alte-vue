@@ -1,11 +1,11 @@
-import aLteCardOverlay from './aLteCardOverlay.vue';
-import aLteCardTitle from './aLteCardTitle.vue';
-import aLteCardTools from './aLteCardTools.vue';
+import alteCardOverlay from './alteCardOverlay.vue';
+import alteCardTitle from './alteCardTitle.vue';
+import alteCardTools from './alteCardTools.vue';
 
 const components = {
-  aLteCardOverlay,
-  aLteCardTitle,
-  aLteCardTools,
+  alteCardOverlay,
+  alteCardTitle,
+  alteCardTools,
 };
 
 const VuePlugin = {

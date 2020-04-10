@@ -1,15 +1,15 @@
-import aLteContent from './aLteContent.vue';
-import aLteFooter from './aLteFooter.vue';
-import aLteHeader from './aLteHeader.vue';
-import aLteLayoutPage from './aLteLayoutPage.vue';
-import aLteLayoutLogin from './aLteLayoutLogin.vue';
+import alteContent from './alteContent.vue';
+import alteFooter from './alteFooter.vue';
+import alteHeader from './alteHeader.vue';
+import alteLayoutPage from './alteLayoutPage.vue';
+import alteLayoutLogin from './alteLayoutLogin.vue';
 
 const components = {
-  aLteContent,
-  aLteFooter,
-  aLteHeader,
-  aLteLayoutPage,
-  aLteLayoutLogin,
+  alteContent,
+  alteFooter,
+  alteHeader,
+  alteLayoutPage,
+  alteLayoutLogin,
 };
 
 const VuePlugin = {

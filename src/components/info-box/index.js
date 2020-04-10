@@ -1,7 +1,7 @@
-import aLteInfoBox from './aLteInfoBox.vue';
+import alteInfoBox from './alteInfoBox.vue';
 
 const components = {
-  aLteInfoBox,
+  alteInfoBox,
 };
 
 const VuePlugin = {

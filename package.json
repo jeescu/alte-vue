@@ -15,12 +15,13 @@
     "name": "John Edward Escuyos",
     "email": "johnedwardescuyos@gmail.com"
   },
-  "main": "lib/index.js",
+  "main": "build/index.js",
   "module": "es/index.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "dev": "webpack-dev-server --mode development --open --hot --config webpack.dev.js",
     "build": "npm run lint && webpack --mode production --progress --config webpack.prod.js",
+    "build:plugin": "rm -r build/ && webpack --mode production --progress --config webpack.plugin.js",
     "lint": "eslint src"
   },
   "dependencies": {},

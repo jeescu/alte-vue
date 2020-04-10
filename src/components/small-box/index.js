@@ -1,7 +1,7 @@
-import aLteSmallBox from './aLteSmallBox.vue';
+import alteSmallBox from './alteSmallBox.vue';
 
 const components = {
-  aLteSmallBox,
+  alteSmallBox,
 };
 
 const VuePlugin = {

@@ -1,22 +1,22 @@
-import aLteAside from './aLteAside.vue';
-import aLteAsideBrand from './aLteAsideBrand.vue';
-import aLteAsideContainer from './aLteAsideContainer.vue';
-import aLteAsideNav from './aLteAsideNav.vue';
-import aLteAsideNavHeader from './aLteAsideNavHeader.vue';
-import aLteAsideNavItem from './aLteAsideNavItem.vue';
-import aLteAsideNavItemDropdown from './aLteAsideNavItemDropdown.vue';
-import aLteAsideUser from './aLteAsideUser.vue';
+import alteAside from './alteAside.vue';
+import alteAsideBrand from './alteAsideBrand.vue';
+import alteAsideContainer from './alteAsideContainer.vue';
+import alteAsideNav from './alteAsideNav.vue';
+import alteAsideNavHeader from './alteAsideNavHeader.vue';
+import alteAsideNavItem from './alteAsideNavItem.vue';
+import alteAsideNavItemDropdown from './alteAsideNavItemDropdown.vue';
+import alteAsideUser from './alteAsideUser.vue';
 import directives from './directives';
 
 const components = {
-  aLteAside,
-  aLteAsideBrand,
-  aLteAsideContainer,
-  aLteAsideNav,
-  aLteAsideNavHeader,
-  aLteAsideNavItem,
-  aLteAsideNavItemDropdown,
-  aLteAsideUser,
+  alteAside,
+  alteAsideBrand,
+  alteAsideContainer,
+  alteAsideNav,
+  alteAsideNavHeader,
+  alteAsideNavItem,
+  alteAsideNavItemDropdown,
+  alteAsideUser,
 };
 
 const VuePlugin = {

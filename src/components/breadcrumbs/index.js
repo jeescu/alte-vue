@@ -1,7 +1,7 @@
-import aLteBreadcrumbs from './aLteBreadcrumbs.vue';
+import alteBreadcrumbs from './alteBreadcrumbs.vue';
 
 const components = {
-  aLteBreadcrumbs,
+  alteBreadcrumbs,
 };
 
 const VuePlugin = {

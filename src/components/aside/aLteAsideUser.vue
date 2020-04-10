@@ -5,7 +5,7 @@
     </div>
     <div class="info">
       <router-link :to="to">
-        { username }}
+        {{ username }}
       </router-link>
     </div>
   </div>

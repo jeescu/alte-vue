@@ -1,7 +1,7 @@
 <template>
   <li class="nav-item">
     <router-link :to="to" active-class="active" class="nav-link" exact>
-      <a-lte-icon :icon="icon" class="nav-icon" />
+      <alte-icon :icon="icon" class="nav-icon" />
       <p>
         {{ title }}
         <span v-if="badge" :class="['right', 'badge', `badge-${badgeVariant}`]">{{ badge }}</span>

@@ -1,10 +1,10 @@
 <template>
-  <a-lte-footer>
+  <alte-footer>
     <strong>Copyright © 2018.</strong> All rights reserved.
     <div class="float-right d-none d-sm-inline-block">
       <strong>Version:</strong> {{ version }}
     </div>
-  </a-lte-footer>
+  </alte-footer>
 </template>
 
 <script>

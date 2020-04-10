@@ -1,21 +1,21 @@
 <template>
-  <a-lte-aside mini>
-    <a-lte-aside-brand :logo="logo" header="AdminLTE Vue" />
+  <alte-aside mini>
+    <alte-aside-brand :logo="logo" header="AdminLTE Vue" />
 
-    <a-lte-aside-container>
-      <a-lte-aside-user :image="avatar" :username="username"/>
+    <alte-aside-container>
+      <alte-aside-user :image="avatar" :username="username"/>
 
-      <a-lte-aside-nav>
+      <alte-aside-nav>
         <template v-for="item in menu">
-          <a-lte-aside-nav-header v-if="!item.children && !item.to" :title="item.title" :key="item.title" />
-          <a-lte-aside-nav-item v-if="!item.children && item.to" :title="item.title" :key="item.title" :icon="item.icon" :badge="item.badge" :to="item.to" />
-          <a-lte-aside-nav-item-dropdown v-if="item.children" :key="item.title" :title="item.title" :icon="item.icon">
-            <a-lte-aside-nav-item v-for="submenu in item.children" :key="submenu.title" :title="submenu.title" :icon="submenu.icon" :to="submenu.to" />
-          </a-lte-aside-nav-item-dropdown>
+          <alte-aside-nav-header v-if="!item.children && !item.to" :title="item.title" :key="item.title" />
+          <alte-aside-nav-item v-if="!item.children && item.to" :title="item.title" :key="item.title" :icon="item.icon" :badge="item.badge" :to="item.to" />
+          <alte-aside-nav-item-dropdown v-if="item.children" :key="item.title" :title="item.title" :icon="item.icon">
+            <alte-aside-nav-item v-for="submenu in item.children" :key="submenu.title" :title="submenu.title" :icon="submenu.icon" :to="submenu.to" />
+          </alte-aside-nav-item-dropdown>
         </template>
-      </a-lte-aside-nav>
-    </a-lte-aside-container>
-  </a-lte-aside>
+      </alte-aside-nav>
+    </alte-aside-container>
+  </alte-aside>
 </template>
 
 <script>

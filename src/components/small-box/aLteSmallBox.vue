@@ -4,7 +4,7 @@
       <slot />
     </div>
     <div class="icon">
-      <a-lte-icon :icon="icon" />
+      <alte-icon :icon="icon" />
     </div>
     <router-link v-if="to" :to="to" class="small-box-footer">
       {{ footer }}

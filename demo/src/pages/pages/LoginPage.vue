@@ -1,5 +1,5 @@
 <template>
-  <a-lte-layout-login>
+  <alte-layout-login>
     <router-link slot="header" to="/">
       <strong>Admin</strong>LTE <i>Vue</i>
     </router-link>
@@ -40,7 +40,7 @@
     <p class="text-center mt-3">
       <router-link to="">Register a new membership</router-link>
     </p>
-  </a-lte-layout-login>
+  </alte-layout-login>
 </template>
 
 <script>

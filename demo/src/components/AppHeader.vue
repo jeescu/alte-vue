@@ -1,8 +1,8 @@
 <template>
-  <a-lte-header border-bottom>
+  <alte-header border-bottom>
     <b-navbar type="light" variant="white" class="navbar-expand">
       <b-navbar-nav>
-        <b-nav-item v-a-lte-aside-toggle>
+        <b-nav-item v-alte-aside-toggle>
           <font-awesome-icon icon="bars" />
         </b-nav-item>
         <b-nav-item to="/" class="d-none d-sm-inline-block">Home</b-nav-item>
@@ -46,5 +46,5 @@
         </b-nav-item>
       </b-navbar-nav>
     </b-navbar>
-  </a-lte-header>
+  </alte-header>
 </template>

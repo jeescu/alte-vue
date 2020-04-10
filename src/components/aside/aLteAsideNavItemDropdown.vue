@@ -1,10 +1,10 @@
 <template>
   <li :class="{ 'nav-item': true, 'menu-open': open }">
     <a :class="{ 'nav-link': true, active: active }" href="#" @click.prevent="toggle">
-      <a-lte-icon :icon="icon" class="nav-icon" />
+      <alte-icon :icon="icon" class="nav-icon" />
       <p>
         {{ title }}
-        <a-lte-icon :icon="iconExpand" class="right" />
+        <alte-icon :icon="iconExpand" class="right" />
       </p>
     </a>
     <transition name="aside-dropdown" @before-enter="beforeEnter" @enter="enter" @leave="leave">

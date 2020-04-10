@@ -8,7 +8,7 @@ const VuePlugin = {
   install(Vue, options) {
     const opt = Object.assign(defaults, options);
 
-    Vue.component('a-lte-icon', {
+    Vue.component('alte-icon', {
       functional: true,
       render: (createElement, context) => createElement(opt.iconComponent, context.data, context.children),
     });

@@ -1,7 +1,7 @@
 <template>
   <div :class="['info-box', bgClass]">
     <div :class="['info-box-icon', bgIconClass]">
-      <a-lte-icon :icon="icon" />
+      <alte-icon :icon="icon" />
     </div>
     <div class="info-box-content">
       <div v-if="header" class="info-box-text">

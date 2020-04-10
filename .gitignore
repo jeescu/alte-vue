@@ -1,5 +1,5 @@
 yarn-error.log
-dist
+dist/assets/
 node_modules
 docs
 build/

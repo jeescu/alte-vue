@@ -1,16 +1,16 @@
 <template>
-  <a-lte-layout-page>
+  <alte-layout-page>
     <app-header />
     <app-aside />
 
-    <a-lte-content>
+    <alte-content>
       <b-container slot="header" fluid>
         <b-row class="mb-2">
           <b-col sm="6">
             <h1 class="m-0 text-dark">{{ title }}</h1>
           </b-col>
           <b-col sm="6" class="d-flex justify-content-end">
-            <a-lte-breadcrumbs :list="breadcrumbs" transition="breadcrumbs" />
+            <alte-breadcrumbs :list="breadcrumbs" transition="breadcrumbs" />
           </b-col>
         </b-row>
       </b-container>
@@ -24,10 +24,10 @@
           </b-col>
         </b-row>
       </b-container>
-    </a-lte-content>
+    </alte-content>
 
     <app-footer />
-  </a-lte-layout-page>
+  </alte-layout-page>
 </template>
 
 <script>
@@ -36,6 +36,7 @@ import AppFooter from '@/components/AppFooter.vue';
 import AppAside from '@/components/AppAside.vue';
 
 export default {
+  name: 'Main',
   components: {
     AppHeader,
     AppFooter,

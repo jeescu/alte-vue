@@ -31,7 +31,7 @@
 
 > ⚠️ Development in-progress
 
-![Dashbaord](https://raw.githubusercontent.com/jeescu/meteor-react-admin-lte/master/public/img/Screenshot%20from%202016-06-24%2009%3A52%3A37.png)
+![Dashbaord](https://github.com/jeescu/alte-vue/blob/master/demo/src/assets/images/sc1.png?raw=true)
 
 ## Quick start
 

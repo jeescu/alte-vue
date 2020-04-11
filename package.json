@@ -1,7 +1,7 @@
 {
   "name": "alte-vue",
   "description": "AdminLTE3 Vue",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jeescu/alte-vue.git"
@@ -16,6 +16,7 @@
     "email": "johnedwardescuyos@gmail.com"
   },
   "main": "build/index.js",
+  "source": "src/index.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "dev": "webpack-dev-server --mode development --open --hot --config webpack.dev.js",

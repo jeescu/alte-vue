@@ -81,7 +81,7 @@ module.exports = {
           {
             loader: 'sass-loader',
             options: {
-              sourceMap: true
+              sourceMap: false
             }
           }
         ]
@@ -91,13 +91,13 @@ module.exports = {
   plugins: [
     new VueLoaderPlugin(),
     new MiniCssExtractPlugin({
-      filename: 'css/build.css',
+      filename: 'css/[name].[hash].css',
+      chunkFilename: 'css/[id].[hash].css'
     }),
   ],
   resolve: {
     extensions: ['.js', '.vue', '.json'],
   },
-  devtool: '#source-map',
   performance: {
     hints: false,
   },
